@@ -32,56 +32,56 @@ html lang:\en,
 						h2 class:'blog-post-title', 'Sample blog post'
 					
 
-						p 'This blog post shows a few different types of content thats supported and styled with Bootstrap. Basic typography, images, and code are all supported.'
-						hr! 
-						p 'Cum sociis natoque penatibus et magnis dis parturient montes'
+					# 	p 'This blog post shows a few different types of content thats supported and styled with Bootstrap. Basic typography, images, and code are all supported.'
+					# 	hr! 
+					# 	p 'Cum sociis natoque penatibus et magnis dis parturient montes'
 						
-						p 'Curabitur blandit tempus porttitor. strong Nullam quis risus eget urna mollis'
+					# 	p 'Curabitur blandit tempus porttitor. strong Nullam quis risus eget urna mollis'
 						
-						p 'Etiam porta em sem malesuada magna'
-						h2 'Heading'
-						p 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'
-						h3 'Sub-heading'
-						p 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.'
+					# 	p 'Etiam porta em sem malesuada magna'
+					# 	h2 'Heading'
+					# 	p 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'
+					# 	h3 'Sub-heading'
+					# 	p 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.'
 						
-						p 'Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.'
-						h3 \Sub-heading
-						p 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
-						ul {},
-							li 'Praesent commodo cursus magna, vel scelerisque nisl consectetur et.'
-							li 'Donec id elit non mi porta gravida at eget metus.'
-							li 'Nulla vitae elit libero, a pharetra augue.'
+					# 	p 'Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.'
+					# 	h3 \Sub-heading
+					# 	p 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
+					# 	ul {},
+					# 		li 'Praesent commodo cursus magna, vel scelerisque nisl consectetur et.'
+					# 		li 'Donec id elit non mi porta gravida at eget metus.'
+					# 		li 'Nulla vitae elit libero, a pharetra augue.'
 						
-						p 'Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.'
-						ol {},
-							li 'Vestibulum id ligula porta felis euismod semper.'
-							li 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.'
-							li 'Maecenas sed diam eget risus varius blandit sit amet non magna.'
+					# 	p 'Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.'
+					# 	ol {},
+					# 		li 'Vestibulum id ligula porta felis euismod semper.'
+					# 		li 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.'
+					# 		li 'Maecenas sed diam eget risus varius blandit sit amet non magna.'
 						
-						p 'Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.'
+					# 	p 'Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.'
 					
 
-					div class:'blog-post',
-						h2 class:'blog-post-title', 'Another blog post'
+					# div class:'blog-post',
+					# 	h2 class:'blog-post-title', 'Another blog post'
 						
 
-						p 'Cum sociis natoque penatibus et magnis is parturient montes'
-						p 'Etiam porta em sem malesuada magna'
-						p 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'
+					# 	p 'Cum sociis natoque penatibus et magnis is parturient montes'
+					# 	p 'Etiam porta em sem malesuada magna'
+					# 	p 'Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'
 					
 
-					div class:'blog-post',
-						h2 class:'blog-post-title', 'New feature'
-						p class:'blog-post-meta', 'December 14, 2013 by Chris'
+					# div class:'blog-post',
+					# 	h2 class:'blog-post-title', 'New feature'
+					# 	p class:'blog-post-meta', 'December 14, 2013 by Chris'
 
-						p 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
-						ul  {},
-							li 'Praesent commodo cursus magna, vel scelerisque nisl consectetur et.'
-							li 'Donec id elit non mi porta gravida at eget metus.'
-							li 'Nulla vitae elit libero, a pharetra augue.'
+					# 	p 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
+					# 	ul  {},
+					# 		li 'Praesent commodo cursus magna, vel scelerisque nisl consectetur et.'
+					# 		li 'Donec id elit non mi porta gravida at eget metus.'
+					# 		li 'Nulla vitae elit libero, a pharetra augue.'
 						
-						p 'Etiam porta em sem malesuada magna'
-						p 'Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.'
+					# 	p 'Etiam porta em sem malesuada magna'
+					# 	p 'Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.'
 					
 					nav class:'blog-pagination',
 						a class:'btn btn-outline-primary' href:'#', 'Older'

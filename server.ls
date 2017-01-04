@@ -18,15 +18,14 @@ xml__init=(self)~>(tag)~>global[tag]=xml {tag, self}
 # PAGE COMPONENTS
 
 include=(...filename)-> livescript.compile fs.readFileSync("#filename.ls", \utf8, (err,data)-> if err => throw err else data), {bare:true, header:false}
-
-template=(...filename)-> eval livescript.compile fs.readFileSync("#filename.ls", \utf8, (err,data)->if err => throw err else data),{bare:true, header:false}
+template=(...filename)-> eval include filename
 
 bootstrap = link(rel:\stylesheet href:'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css' integrity:'sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi' crossorigin:\anonymous) + 
 	script(src:'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js' integrity:'sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK' crossorigin:\anonymous)
 jquery = script src:\https://code.jquery.com/jquery-3.1.1.min.js
 
 page = html \<!--xml__livescript-->,
-	head bootstrap + jquery
+	head jquery + bootstrap
 	script include \client 
 	body div class:\container,
 		h2 'Заголовок второго уровня'
@@ -34,10 +33,15 @@ page = html \<!--xml__livescript-->,
 	
 
 # SERVER
-http.createServer (request,response)!-> 
-	response
-		..writeHead 200, \Content-type :\text-html
-		..write String(template \bootstrap__example)
-		..end!
+http.createServer (request,response)->
+	case request.url == '/'|| request.url=='/main'
+		response
+			..writeHead 200, \Content-type :\text-html
+			..write template \bootstrap__example
+			..end!
+	default
+		response.writeHead 404, \Content-type :\text-html
+		response.write h1 'Page not found'
+		response.end!
 .listen 4000
 
